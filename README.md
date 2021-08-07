@@ -1,9 +1,9 @@
 # face_classification by Paddle
 
-|  model   | acc(ours)  | acc(official repo) | acc(paper) |
+|  model   | acc  | acc(offcial repo) | acc(paper) |
 |  ----  | ----  | ----  |----  |
-| MiniXception  | 95.58% | 95% |95% |
-| SimpleCNN  | 95.76% | 94.88% |94.88% |
+| MiniXception  | 95.58% ([MiniXception/best_model](trained_models/gender_models/MiniXception/best.pdparams))| 95% ([gender_mini_XCEPTION.21-0.95.hdf5](https://github.com/oarriaga/face_classification/blob/master/trained_models/gender_models/gender_mini_XCEPTION.21-0.95.hdf5)) |95% |
+| SimpleCNN  | 95.76% ([SimpleCNN/best_model](trained_models/gender_models/SimpleCNN/best.pdparams)) | 94.88% ([simple_CNN.81-0.96.hdf5](https://github.com/oarriaga/face_classification/blob/master/trained_models/gender_models/simple_CNN.81-0.96.hdf5)) |94.88% |
 
 ## dataset 
 download imdb dataset (gender classification) from [link](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and unzip it to dataset folder
