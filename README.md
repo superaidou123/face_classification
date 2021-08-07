@@ -1,9 +1,9 @@
 # face_classification by Paddle
 
-| model | acc | acc(repo) |
-| --- | --- |
-| MiniXception | 95.58% | 95% |
-| SimpleCNN | 95.76% | 94.88% |
+|  model   | acc(ours)  | acc(official repo) | acc(paper) |
+|  ----  | ----  | ----  |----  |
+| MiniXception  | 95.58% | 95% |95% |
+| SimpleCNN  | 95.76% | 94.88% |94.88% |
 
 ## dataset 
 download imdb dataset (gender classification) from [link](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) and unzip it to dataset folder
@@ -34,4 +34,4 @@ python3 demo.py
 
 sample
 
-![](images/predicted_test_image.png)
+![demo img](images/predicted_test_image.png)
